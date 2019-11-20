@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33F56D832384E368003EC529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F56D822384E368003EC529 /* AppDelegate.swift */; };
+		33F56D852384E368003EC529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F56D842384E368003EC529 /* ViewController.swift */; };
+		33F56D882384E368003EC529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F56D862384E368003EC529 /* Main.storyboard */; };
+		33F56D8A2384E36B003EC529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F56D892384E36B003EC529 /* Assets.xcassets */; };
+		33F56D8D2384E36B003EC529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F56D8B2384E36B003EC529 /* LaunchScreen.storyboard */; };
+		33F56D982384E36B003EC529 /* MilhaoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F56D972384E36B003EC529 /* MilhaoProjectTests.swift */; };
+		33F56DA32384E36B003EC529 /* MilhaoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F56DA22384E36B003EC529 /* MilhaoProjectUITests.swift */; };
+		38F457C1F6A38301EC006A2E /* Pods_MilhaoProject_MilhaoProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CE6B6C3637DF1D1B15FD6F /* Pods_MilhaoProject_MilhaoProjectUITests.framework */; };
+		53EB7D6323857568006B0EBF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53EB7D6223857568006B0EBF /* GoogleService-Info.plist */; };
+		F755A42E260F3BDD71F6C9C6 /* Pods_MilhaoProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBC617867B93F72DB6DF1D3 /* Pods_MilhaoProjectTests.framework */; };
+		F9AD0EE2A6B9BD54C64D635A /* Pods_MilhaoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EFF79807444D7CE1BA1561 /* Pods_MilhaoProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33F56D942384E36B003EC529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F56D772384E368003EC529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F56D7E2384E368003EC529;
+			remoteInfo = MilhaoProject;
+		};
+		33F56D9F2384E36B003EC529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F56D772384E368003EC529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F56D7E2384E368003EC529;
+			remoteInfo = MilhaoProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C8E7B4398E3EE3451EAFE34 /* Pods-MilhaoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilhaoProject.debug.xcconfig"; path = "Target Support Files/Pods-MilhaoProject/Pods-MilhaoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		1A383D7B7277968542C94351 /* Pods-MilhaoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilhaoProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-MilhaoProjectTests/Pods-MilhaoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33F56D7F2384E368003EC529 /* MilhaoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilhaoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F56D822384E368003EC529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33F56D842384E368003EC529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33F56D872384E368003EC529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33F56D892384E36B003EC529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33F56D8C2384E36B003EC529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33F56D8E2384E36B003EC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F56D932384E36B003EC529 /* MilhaoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilhaoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F56D972384E36B003EC529 /* MilhaoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilhaoProjectTests.swift; sourceTree = "<group>"; };
+		33F56D992384E36B003EC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F56D9E2384E36B003EC529 /* MilhaoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilhaoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F56DA22384E36B003EC529 /* MilhaoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilhaoProjectUITests.swift; sourceTree = "<group>"; };
+		33F56DA42384E36B003EC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EB7D6223857568006B0EBF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70EFF79807444D7CE1BA1561 /* Pods_MilhaoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilhaoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E21FF49F87A21642EFE658E /* Pods-MilhaoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilhaoProject.release.xcconfig"; path = "Target Support Files/Pods-MilhaoProject/Pods-MilhaoProject.release.xcconfig"; sourceTree = "<group>"; };
+		A0732BF5077820F3FCF1AF56 /* Pods-MilhaoProject-MilhaoProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilhaoProject-MilhaoProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-MilhaoProject-MilhaoProjectUITests/Pods-MilhaoProject-MilhaoProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5CE6B6C3637DF1D1B15FD6F /* Pods_MilhaoProject_MilhaoProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilhaoProject_MilhaoProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2AA4A3DD9689847AA6E068 /* Pods-MilhaoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilhaoProjectTests.release.xcconfig"; path = "Target Support Files/Pods-MilhaoProjectTests/Pods-MilhaoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECBC617867B93F72DB6DF1D3 /* Pods_MilhaoProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilhaoProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF9060EE3A87FF5E08EB61A /* Pods-MilhaoProject-MilhaoProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilhaoProject-MilhaoProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-MilhaoProject-MilhaoProjectUITests/Pods-MilhaoProject-MilhaoProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33F56D7C2384E368003EC529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AD0EE2A6B9BD54C64D635A /* Pods_MilhaoProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F56D902384E36B003EC529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F755A42E260F3BDD71F6C9C6 /* Pods_MilhaoProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F56D9B2384E36B003EC529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F457C1F6A38301EC006A2E /* Pods_MilhaoProject_MilhaoProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F56D762384E368003EC529 = {
+			isa = PBXGroup;
+			children = (
+				33F56D812384E368003EC529 /* MilhaoProject */,
+				33F56D962384E36B003EC529 /* MilhaoProjectTests */,
+				33F56DA12384E36B003EC529 /* MilhaoProjectUITests */,
+				33F56D802384E368003EC529 /* Products */,
+				3BDA00F3DC0CA5FE39BE6F9C /* Pods */,
+				5209553C0D48556F024FD147 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33F56D802384E368003EC529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33F56D7F2384E368003EC529 /* MilhaoProject.app */,
+				33F56D932384E36B003EC529 /* MilhaoProjectTests.xctest */,
+				33F56D9E2384E36B003EC529 /* MilhaoProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33F56D812384E368003EC529 /* MilhaoProject */ = {
+			isa = PBXGroup;
+			children = (
+				53EB7D6223857568006B0EBF /* GoogleService-Info.plist */,
+				33F56D822384E368003EC529 /* AppDelegate.swift */,
+				33F56D842384E368003EC529 /* ViewController.swift */,
+				33F56D862384E368003EC529 /* Main.storyboard */,
+				33F56D892384E36B003EC529 /* Assets.xcassets */,
+				33F56D8B2384E36B003EC529 /* LaunchScreen.storyboard */,
+				33F56D8E2384E36B003EC529 /* Info.plist */,
+			);
+			path = MilhaoProject;
+			sourceTree = "<group>";
+		};
+		33F56D962384E36B003EC529 /* MilhaoProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				33F56D972384E36B003EC529 /* MilhaoProjectTests.swift */,
+				33F56D992384E36B003EC529 /* Info.plist */,
+			);
+			path = MilhaoProjectTests;
+			sourceTree = "<group>";
+		};
+		33F56DA12384E36B003EC529 /* MilhaoProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33F56DA22384E36B003EC529 /* MilhaoProjectUITests.swift */,
+				33F56DA42384E36B003EC529 /* Info.plist */,
+			);
+			path = MilhaoProjectUITests;
+			sourceTree = "<group>";
+		};
+		3BDA00F3DC0CA5FE39BE6F9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C8E7B4398E3EE3451EAFE34 /* Pods-MilhaoProject.debug.xcconfig */,
+				7E21FF49F87A21642EFE658E /* Pods-MilhaoProject.release.xcconfig */,
+				A0732BF5077820F3FCF1AF56 /* Pods-MilhaoProject-MilhaoProjectUITests.debug.xcconfig */,
+				EDF9060EE3A87FF5E08EB61A /* Pods-MilhaoProject-MilhaoProjectUITests.release.xcconfig */,
+				1A383D7B7277968542C94351 /* Pods-MilhaoProjectTests.debug.xcconfig */,
+				AF2AA4A3DD9689847AA6E068 /* Pods-MilhaoProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5209553C0D48556F024FD147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70EFF79807444D7CE1BA1561 /* Pods_MilhaoProject.framework */,
+				A5CE6B6C3637DF1D1B15FD6F /* Pods_MilhaoProject_MilhaoProjectUITests.framework */,
+				ECBC617867B93F72DB6DF1D3 /* Pods_MilhaoProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33F56D7E2384E368003EC529 /* MilhaoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F56DA72384E36B003EC529 /* Build configuration list for PBXNativeTarget "MilhaoProject" */;
+			buildPhases = (
+				58CED3B01B36A8B213CE6EAF /* [CP] Check Pods Manifest.lock */,
+				33F56D7B2384E368003EC529 /* Sources */,
+				33F56D7C2384E368003EC529 /* Frameworks */,
+				33F56D7D2384E368003EC529 /* Resources */,
+				ED159D9B4C5A9C7F48A2ACF6 /* [CP] Embed Pods Frameworks */,
+				8DADBA35220A3A4C286E1B78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MilhaoProject;
+			productName = MilhaoProject;
+			productReference = 33F56D7F2384E368003EC529 /* MilhaoProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33F56D922384E36B003EC529 /* MilhaoProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F56DAA2384E36B003EC529 /* Build configuration list for PBXNativeTarget "MilhaoProjectTests" */;
+			buildPhases = (
+				EED2CA761ECE7C2443CFE7C8 /* [CP] Check Pods Manifest.lock */,
+				33F56D8F2384E36B003EC529 /* Sources */,
+				33F56D902384E36B003EC529 /* Frameworks */,
+				33F56D912384E36B003EC529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F56D952384E36B003EC529 /* PBXTargetDependency */,
+			);
+			name = MilhaoProjectTests;
+			productName = MilhaoProjectTests;
+			productReference = 33F56D932384E36B003EC529 /* MilhaoProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33F56D9D2384E36B003EC529 /* MilhaoProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F56DAD2384E36B003EC529 /* Build configuration list for PBXNativeTarget "MilhaoProjectUITests" */;
+			buildPhases = (
+				4AC4DB7893C66546BE18C338 /* [CP] Check Pods Manifest.lock */,
+				33F56D9A2384E36B003EC529 /* Sources */,
+				33F56D9B2384E36B003EC529 /* Frameworks */,
+				33F56D9C2384E36B003EC529 /* Resources */,
+				9EBD7650A8B21378D18DB7D0 /* [CP] Embed Pods Frameworks */,
+				4A66472B14FAF168609D6ACC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F56DA02384E36B003EC529 /* PBXTargetDependency */,
+			);
+			name = MilhaoProjectUITests;
+			productName = MilhaoProjectUITests;
+			productReference = 33F56D9E2384E36B003EC529 /* MilhaoProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33F56D772384E368003EC529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Matheus Carvalho Ferreira Silva";
+				TargetAttributes = {
+					33F56D7E2384E368003EC529 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					33F56D922384E36B003EC529 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 33F56D7E2384E368003EC529;
+					};
+					33F56D9D2384E36B003EC529 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 33F56D7E2384E368003EC529;
+					};
+				};
+			};
+			buildConfigurationList = 33F56D7A2384E368003EC529 /* Build configuration list for PBXProject "MilhaoProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33F56D762384E368003EC529;
+			productRefGroup = 33F56D802384E368003EC529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33F56D7E2384E368003EC529 /* MilhaoProject */,
+				33F56D922384E36B003EC529 /* MilhaoProjectTests */,
+				33F56D9D2384E36B003EC529 /* MilhaoProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33F56D7D2384E368003EC529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F56D8D2384E36B003EC529 /* LaunchScreen.storyboard in Resources */,
+				53EB7D6323857568006B0EBF /* GoogleService-Info.plist in Resources */,
+				33F56D8A2384E36B003EC529 /* Assets.xcassets in Resources */,
+				33F56D882384E368003EC529 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F56D912384E36B003EC529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F56D9C2384E36B003EC529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A66472B14FAF168609D6ACC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject-MilhaoProjectUITests/Pods-MilhaoProject-MilhaoProjectUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject-MilhaoProjectUITests/Pods-MilhaoProject-MilhaoProjectUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject-MilhaoProjectUITests/Pods-MilhaoProject-MilhaoProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC4DB7893C66546BE18C338 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilhaoProject-MilhaoProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58CED3B01B36A8B213CE6EAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilhaoProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DADBA35220A3A4C286E1B78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject/Pods-MilhaoProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject/Pods-MilhaoProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject/Pods-MilhaoProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBD7650A8B21378D18DB7D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject-MilhaoProjectUITests/Pods-MilhaoProject-MilhaoProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject-MilhaoProjectUITests/Pods-MilhaoProject-MilhaoProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject-MilhaoProjectUITests/Pods-MilhaoProject-MilhaoProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED159D9B4C5A9C7F48A2ACF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject/Pods-MilhaoProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject/Pods-MilhaoProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilhaoProject/Pods-MilhaoProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EED2CA761ECE7C2443CFE7C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilhaoProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33F56D7B2384E368003EC529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F56D852384E368003EC529 /* ViewController.swift in Sources */,
+				33F56D832384E368003EC529 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F56D8F2384E36B003EC529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F56D982384E36B003EC529 /* MilhaoProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F56D9A2384E36B003EC529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F56DA32384E36B003EC529 /* MilhaoProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33F56D952384E36B003EC529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F56D7E2384E368003EC529 /* MilhaoProject */;
+			targetProxy = 33F56D942384E36B003EC529 /* PBXContainerItemProxy */;
+		};
+		33F56DA02384E36B003EC529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F56D7E2384E368003EC529 /* MilhaoProject */;
+			targetProxy = 33F56D9F2384E36B003EC529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33F56D862384E368003EC529 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F56D872384E368003EC529 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33F56D8B2384E36B003EC529 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F56D8C2384E36B003EC529 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33F56DA52384E36B003EC529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33F56DA62384E36B003EC529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33F56DA82384E36B003EC529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8E7B4398E3EE3451EAFE34 /* Pods-MilhaoProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56N5L7UPUU;
+				INFOPLIST_FILE = MilhaoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DesenvolvimentoMovel.MilhaoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33F56DA92384E36B003EC529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E21FF49F87A21642EFE658E /* Pods-MilhaoProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56N5L7UPUU;
+				INFOPLIST_FILE = MilhaoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DesenvolvimentoMovel.MilhaoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33F56DAB2384E36B003EC529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A383D7B7277968542C94351 /* Pods-MilhaoProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MilhaoProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DesenvolvimentoMovel.MilhaoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilhaoProject.app/MilhaoProject";
+			};
+			name = Debug;
+		};
+		33F56DAC2384E36B003EC529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2AA4A3DD9689847AA6E068 /* Pods-MilhaoProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MilhaoProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DesenvolvimentoMovel.MilhaoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilhaoProject.app/MilhaoProject";
+			};
+			name = Release;
+		};
+		33F56DAE2384E36B003EC529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0732BF5077820F3FCF1AF56 /* Pods-MilhaoProject-MilhaoProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MilhaoProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DesenvolvimentoMovel.MilhaoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MilhaoProject;
+			};
+			name = Debug;
+		};
+		33F56DAF2384E36B003EC529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF9060EE3A87FF5E08EB61A /* Pods-MilhaoProject-MilhaoProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MilhaoProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DesenvolvimentoMovel.MilhaoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MilhaoProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33F56D7A2384E368003EC529 /* Build configuration list for PBXProject "MilhaoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F56DA52384E36B003EC529 /* Debug */,
+				33F56DA62384E36B003EC529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F56DA72384E36B003EC529 /* Build configuration list for PBXNativeTarget "MilhaoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F56DA82384E36B003EC529 /* Debug */,
+				33F56DA92384E36B003EC529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F56DAA2384E36B003EC529 /* Build configuration list for PBXNativeTarget "MilhaoProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F56DAB2384E36B003EC529 /* Debug */,
+				33F56DAC2384E36B003EC529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F56DAD2384E36B003EC529 /* Build configuration list for PBXNativeTarget "MilhaoProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F56DAE2384E36B003EC529 /* Debug */,
+				33F56DAF2384E36B003EC529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33F56D772384E368003EC529 /* Project object */;
+}

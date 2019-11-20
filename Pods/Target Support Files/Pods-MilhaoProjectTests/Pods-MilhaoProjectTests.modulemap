@@ -1,0 +1,6 @@
+framework module Pods_MilhaoProjectTests {
+  umbrella header "Pods-MilhaoProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
